@@ -1,0 +1,29 @@
+html{ 
+	background: rgb(49,57,77);
+	background: -moz-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: -webkit-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31394d",endColorstr="#002f4a",GradientType=1);
+	scroll-behavior: smooth;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.FreedomHubLogo{
+	position: absolute;
+  	top: 1.5%;
+  	left: 1%;
+ 	width: 12%;
+  	animation: fadeIn ease 4s;
+}
+.FreedomHubLogo:hover{
+	transform: scale(1.05);
+    cursor: pointer;
+}
