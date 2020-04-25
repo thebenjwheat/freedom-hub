@@ -37,3 +37,64 @@ html{
 	transform: scale(1.05);
     cursor: pointer;
 } /* TEST CODE TO SEE HOW THE IMAGE LOOKS ON THE WEBPAGE */
+
+
+/* Beginning slider.css */
+/********** SLIDER **********/
+.slider {
+  max-width: 800px;
+  margin: 0px auto 30px auto;
+}
+
+.slide-viewer {
+  position: relative; /* needed for IE7 */
+  overflow: hidden;
+  height: 500px;
+}
+/* 430px is orginal */
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slideImg {
+  width: 100%;
+}
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;
+}
+
+.slide-btn.active,
+.slide-btn:hover {
+  color: #4b2e83;
+  cursor: pointer;
+}
+/* END of slider.css */
+
+#a6795:hover {
+  cursor: pointer;
+}
+/* End of buttons CSS */
