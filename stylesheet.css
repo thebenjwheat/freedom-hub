@@ -27,3 +27,13 @@ html{
 	transform: scale(1.05);
     cursor: pointer;
 }
+.MovieIcon{ /* TEST CODE TO SEE HOW THE IMAGE LOOKS ON THE WEBPAGE */
+	width: 7%;
+	top: 5.3%;
+	left: 20%;
+	position: absolute;
+}
+.MovieIcon:hover{
+	transform: scale(1.05);
+    cursor: pointer;
+} /* TEST CODE TO SEE HOW THE IMAGE LOOKS ON THE WEBPAGE */
