@@ -238,6 +238,7 @@ input[type=submit]:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  animation: fadeIn ease 4s;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
@@ -249,12 +250,13 @@ input[type=submit]:hover {
   display: block;
 }
 
+
 .FreedomHubLogo{
 	position: absolute;
-  	top: 1.5%;
-  	left: 1%;
- 	width: 12%;
-  	animation: fadeIn ease 4s;
+  top: 1.5%;
+  left: 1%;
+ 	width: 7%;
+  animation: fadeIn ease 4s;
 }
 .FreedomHubLogo:hover{
 	transform: scale(1.05);
