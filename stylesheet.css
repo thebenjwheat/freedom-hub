@@ -313,14 +313,14 @@ input[type=submit]:hover {
 .slide-btn {
   border: none;
   background: none;
-  color: #000;
+  color: white;
   font-size: 200%;
   line-height: 0.5em;
 }
 
 .slide-btn.active,
 .slide-btn:hover {
-  color: #4b2e83;
+  color: rgb(211,211,211);
   cursor: pointer;
 }
 /* END of slider.css */
