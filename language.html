@@ -1,26 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+ <header>
 <meta charset="UTF-8"> 
-<head>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-	<title>Freedom Hub</title>
-</head>
-<body>
-	<div class="wrapper">
-	<header>
-		<h1>Languanges</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a><li>
-				<li><a href="language.html" class="current">Languages</a><li>
-				<li><a href="exercise.html">Exercise</a><li>
-				<li><a href="movie.html">Movies</a><li>
-				<li><a href="game.html">Games</a><li>
-				<li><a href="book.html">Books</a><li>
-			</ul>
-		</nav>
-	</header>
-	<div>
+	<title>FreedomHub</title>
+      <!--  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> -->
+  <style type = "text/css">
+	*{
+  font-family: helvetica;
+}
+html{ 
+	background: rgb(49,57,77);
+	background: -moz-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: -webkit-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31394d",endColorstr="#002f4a",GradientType=1);
+	scroll-behavior: smooth;
+	background-repeat: no-repeat;
+	height: 100%;
+}
 
-</body>
+img{
+   float:left;
+   with:100px;
+   height:100px;
+}
+
+	
+
+.wrapper {
+	width: 720px;
+	margin: 0px auto;}
+body{
+	text-align: center;
+	color: white;
+}
+
+.header {
+	margin: 40px 0px 20px 0px;
+	font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+  
+}
+.entry {
+	width: 300px;
+	float: left;
+	margin: 10px;
+	height: 198px;
+	background-image: url("shadow.png");
+	background-repeat: no-rpeat;
+	background-position: bottom;
+						
+}
+
+
+figure {
+	display: block;
+	width: 202px;
+	height: 170px;
+	margin: 0;
+	padding: 9px;
+	text-align: left;}
+
+
+figure img {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #d6d6d6;
+}
+
+figcaption {
+	background-image: url("images/icon.png");
+	padding-left: 20px;
+	background-repeat: no-repeat;
+}
+
+.Intro {
+  clear: both;
+  font-size: 20px;
+  width: 98%;
+  padding: 10px;
+  margin: 6px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  text-align: center;
+}
+
+  </style> 
+
+<div>
+  <a href="index.html"> <!-- FreedomHub Logo ; Loads index.html Page -->
+  <img class="FreedomHubLogo" src="logo.png" alt="FreedomHubLogo">
+  
+  </a>
+  </header>
+
+<body data-gr-c-s-loaded="true">
+  <div class="wrapper">
+     <div class ="header">
+	<h1>Learning A New Language</h1>
+     </div>	
+    
+	<div class="entry">
+	   <figure>
+		<iframe  src="https://www.youtube.com/embed/u0psf0FHhf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>Arabic</figcaption>
+	   </figure>
+	</div>
+	<div class="entry">
+		<figure>
+		<iframe  src="https://www.youtube.com/embed/FqCifo9GUSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>Spanish</figcaption>
+	   </figure>
+	</div>
+	<div class="entry">
+	   <figure>
+		<iframe  src="https://www.youtube.com/embed/Yjq5eJn530Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>Portuguese</figcaption>
+	   </figure>
+	</div>
+	<div class="entry">
+		<figure>
+		<iframe  src="https://www.youtube.com/embed/clNb2dy1ZEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>Russian</figcaption>
+	   </figure>
+	</div>
+	<div class="entry">
+	   <figure>
+		<iframe  src="https://www.youtube.com/embed/e4eeMi5OT6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>Swahili</figcaption>
+	   </figure>
+	</div>
+	<div class="entry">
+		<figure>
+		<iframe src="https://www.youtube.com/embed/ujDtm0hZyII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figcaption>French</figcaption>
+	   </figure>
+	</div>
+
+    </div>
+
+   
+
+  <div class = "Intro">
+    <p>
+      Freedom Hub - A repository for free, legal entertainment and education.
+    </p>
+  </div>
+  <div class = "bottom">
+    Copyright 3/13/2010 - Freedom Hub, LLC
+  </div>
+</div>
+</div>
 </html>
