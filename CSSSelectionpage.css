@@ -1,0 +1,140 @@
+ {
+  font-family: helvetica;
+}
+html{ 
+	background: rgb(49,57,77);
+	background: -moz-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: -webkit-linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	background: linear-gradient(0deg, rgba(49,57,77,1) 18%, rgba(0,47,74,1) 79%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31394d",endColorstr="#002f4a",GradientType=1);
+	scroll-behavior: smooth; 
+	margin: 0;
+	padding: 0;
+}
+body{
+  background-image: rgb(49,57,77);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-size: 20px;	
+  margin: 0;
+  padding: 0;
+}
+
+.Intro {
+  clear: both;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  text-align: center;
+}
+
+.bottom {
+  margin-top: -100px;
+  clear: both;
+  margin: auto;
+  width:100%;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  background: #333;
+  text-align: center;
+  color: white;
+}
+
+/*Navigation Bar Stuff*/
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar li {
+    float: left;
+    margin: 5px;
+}
+
+.navBar li a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  animation: fadeIn ease 4s;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Selection Page stuff */
+#listHeader {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+}
+table.GenreList {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+tr.item {
+	text-align: center;
+}
+
+tr.item img{
+	border: solid black 2px;
+	width: 400px;
+	height: 300px;
+}
+tr.GenreType {
+	text-align: center;
+	background-color: #454443;
+	color: white;
+}
+
+table.GameList {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+tr.GameTitle {
+	text-align: center;
+}
+
+tr.GamePic {
+	text-align: center;
+}
+
+tr.GamePic img{
+	border: solid black 2px;
+	width: 400px;
+	height: 300px;
+}
+
+tr.GameLink {
+	text-align: center;
+	color: white;
+}
+
+tr.GameDesc {
+	text-align: center;
+	background-color: #454443;
+	color: white;
+}
