@@ -275,15 +275,15 @@ input[type=submit]:hover {
 
 /* Carousel stuff */
 .slider {
-  max-width: 800px;
+  max-width: 1080px;
   margin: 0px auto 30px auto;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .slide-viewer {
   position: relative; /* needed for IE7 */
   overflow: hidden;
-  height: 500px;
+  height: 720px;
 }
 /* 430px is orginal */
 
@@ -319,6 +319,7 @@ input[type=submit]:hover {
   color: white;
   font-size: 200%;
   line-height: 0.5em;
+  margin: 0;
 }
 
 .slide-btn.active,
