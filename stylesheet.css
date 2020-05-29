@@ -277,6 +277,7 @@ input[type=submit]:hover {
 .slider {
   max-width: 800px;
   margin: 0px auto 30px auto;
+  margin-top: 100px;
 }
 
 .slide-viewer {
@@ -382,4 +383,9 @@ input[type=submit]:hover {
 
 .empty{
   opacity: 0%;
+}
+
+#moviePoster:hover{
+  cursor: pointer;
+  transform: scale(1.02);
 }
